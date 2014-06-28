@@ -1,3 +1,6 @@
 [submodule "piatto/src"]
 	path = piatto/src
 	url = https://github.com/samuelrafo/piatto.git
+[submodule "spacegrey/src"]
+	path = spacegrey/src
+	url = https://github.com/kkga/spacegray.git
