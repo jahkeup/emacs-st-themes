@@ -1,0 +1,3 @@
+[submodule "piatto/src"]
+	path = piatto/src
+	url = https://github.com/samuelrafo/piatto.git
