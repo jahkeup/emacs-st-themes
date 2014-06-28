@@ -1,7 +1,7 @@
 ;;; piatto-dark-theme.el --- an Emacs 24 theme based on Piatto Dark (tmTheme)
 ;;
 ;;; Author: Auto Converted to Emacs 24 by tmtheme-to-deftheme (tm2deftheme)
-;;; Version: 1403990686
+;;; Version: 1403993580
 ;;; Original author: Samuel Rafo
 ;;; Url: https://github.com/emacsfodder/tmtheme-to-deftheme
 ;;; Package-Requires: ((emacs "24.0"))
@@ -13,7 +13,7 @@
 ;;; Code:
 
 (deftheme piatto-dark
-  "piatto-dark-theme - Created by tmtheme-to-deftheme - 2014-06-28 17:24:46 -0400")
+  "piatto-dark-theme - Created by tmtheme-to-deftheme - 2014-06-28 18:13:00 -0400")
 
 (custom-theme-set-variables
  'piatto-dark

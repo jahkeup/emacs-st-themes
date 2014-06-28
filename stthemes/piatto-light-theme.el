@@ -1,0 +1,1 @@
+../piatto/piatto-light-theme.el
