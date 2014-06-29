@@ -44,9 +44,12 @@ fi
 convert_source=$1
 current_dir=`pwd`
 cd $convert_source
-for tmTheme in $current_dir/$convert_source/**/*.tmTheme; do
+
+find $current_dir/$convert_source -name \*.tmTheme -type f | sort | \
+while read tmTheme; do
     # tm2deftheme doesn't seem to respect paths in output file names,
     # so we'll have to change directories for now.
+    echo "Converting $tmTheme"
     tm2deftheme "$tmTheme" -o -f "$convert_source/$(elThemeName "$tmTheme")"
 done
 cd $current_dir

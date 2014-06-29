@@ -4,3 +4,6 @@
 [submodule "spacegrey/src"]
 	path = spacegrey/src
 	url = https://github.com/kkga/spacegray.git
+[submodule "colour-schemes/src"]
+	path = colour-schemes/src
+	url = https://github.com/daylerees/colour-schemes.git
